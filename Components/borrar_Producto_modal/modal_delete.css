@@ -1,0 +1,67 @@
+#head{
+    position: relative;
+}
+#borrar_producto{
+    width: 700px;
+    height: 200px;
+    font-size: 30px;
+    position: absolute;
+    top: 350px;
+    left: 550px;
+   
+}
+
+#container_all3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#message_delete{
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#container_sino{
+    position: absolute;
+    top: 120px;
+    right: 55px;
+}
+
+.delete_btn{
+    width: 40px;
+    height: 20px;
+}
+
+
+
+.delete_btn{
+    width: 60px;
+    height: 30px;
+    background: none;
+    scale: (1);
+    border-radius: 5px;
+    background: linear-gradient(150deg, #e74747, #eb672a);
+    font-size: 15px;
+    border: none;
+}
+
+.delete_btn:active{
+    transform: scale(0.90);
+}
+
+.delete_btn:hover{
+    box-shadow: 0px 1px 10px #e53636;
+}
+
+
+#succses_delete{
+    position: absolute;
+    left: 50px;
+   font-size: 20px;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="Common/Styles/Global.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
+        <script type="module" src="./main.js"></script>
+    </head>
+    <body>
+        <header id="head">
+            <h1> T I E N D A  <h1/>
+        </header>
+    <main id="main">
+     
+            <ul id="ListadeProductos"></ul> 
+
+       
+        <dialog id="modal">
+            <div class="contenido_modal">
+                <button class="closebtn" >
+                    <img src="./Assets/cruz.png" width="40" height="40" alt="">
+                </button>
+                
+                <div class="details">
+                    
+                </div>
+                
+            </div>
+        </dialog>
+               
+    <div id="create_container">
+        <button class="create_btn">Crear nuevo producto</button>
+    </div>
+    
+    <dialog id="nuevo_producto">
+        <div id="container_all">
+            <div id="container_input">
+                <h1 id="newProducthead" >Introduce los datos del nuevo prodcuto</h1>
+                <input class="input_title inputs" type="text" placeholder="Title">
+                <input class="input_price inputs" type="number"placeholder="Price">
+                <textarea class="input_description inputs" name="" id="" cols="30" rows="10" placeholder="Description"></textarea>
+                <input class="input_image inputs" type="url" placeholder="image url">
+                <button class="crear_final crear">Create</button>
+                <button class="closebtn cerrarModal">
+                    <img src="./Assets/cruz.png" alt="" width="40" height="40">
+                </button>
+                <p id="succses_text"></p>
+            </div>
+        </div>
+    </dialog>
+    
+    <dialog id="actualizar_producto">
+        <div id="container_all2">
+            <div id="container_input2">
+                <h1 id="newProducthead2" >Introduce los datos </h1>
+                <input class="input_title2 inputs" type="text" placeholder="Title">
+                <input class="input_price2 inputs" type="number"placeholder="Price">
+                <textarea class="input_description2 inputs" name="" id="" cols="30" rows="10" placeholder="Description"></textarea>
+                <input class="input_image2 inputs" type="url" placeholder="image url">
+                <button class="actualizar crear">Actualizar</button>
+                <button class="closePutModal closebtn">
+                    <img src="./Assets/cruz.png" alt="" width="40" height="40">
+                </button>
+                <p id="succses_put"></p>
+             
+            </div>
+        </div>
+    </dialog>
+     
+    <dialog id="borrar_producto">
+        <div id="container_all3">
+
+            
+            <div id="message_delete">
+                <p>Esta seguro de que desea eliminar este producto?</p>
+            </div>       
+            
+            <div id = "container_sino">
+                <button class="si_delete delete_btn">Sí</button>
+                <button class="no_delete delete_btn" >NO</button>
+                <button class="cerrar_modal_delete delete_btn">Cerrar</button>
+            </div>
+            
+        </div>
+        
+        <p id="succses_delete"></p>
+            
+    </dialog>
+</main>  
+</body>
+</html> 

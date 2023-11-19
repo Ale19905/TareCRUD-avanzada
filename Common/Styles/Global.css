@@ -1,0 +1,14 @@
+/*@import url('/Components/Products/Products.css');*/
+@import url('/Components/ProductsList/ProductList.css');
+@import url('/Components/Product_modal/product_modal.css');
+@import url('/Components/Product/Products.css');
+@import url('/Components/NewProduct_modal/newProduct.css');
+@import url('/Components/Put_Modal/Put_modal.css');
+@import url('/Components/borrar_Producto_modal/modal_delete.css');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  
+}
